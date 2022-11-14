@@ -259,7 +259,7 @@ class YOLO(object):
             pickle.dump(history, open(pickle_file_path, "wb"))
             print("ok")
 
-    def predict(self, image, iou_threshold=0.5, score_threshold=0.5):
+    def predict(self, image, iou_threshold=0.1, score_threshold=0.1):
 
         input_image = self.resize(image)
 

@@ -12,7 +12,7 @@ argparser = argparse.ArgumentParser()
 argparser.add_argument(
     '-c',
     '--conf',
-    default='../config.json',
+    default='/home/acarlier/code/audio_recognition_yolo/src/config/benchmark_config/audio_classic.json',
     help='path to configuration file')
 
 

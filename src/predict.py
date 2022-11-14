@@ -28,7 +28,7 @@ argparser.add_argument(
 argparser.add_argument(
   '-w',
   '--weights',
-  default='/home/acarlier/project_ornithoScope_lucien/src/data/saved_weights/benchmark_weights/MobileNetV2-1.0-focal-1_bestLoss.h5',
+  default='/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/audio_classic_bestLoss.h5',
   type=str,
   help='path to pretrained weights')
 

@@ -19,7 +19,7 @@ with open(path_to_data, "r") as f:
             f2.write(",".join(line))
             
 #on veut rajouter deux colonnes qui indiquent la taille de l'image renseignée dans le csv à line[0]
-path_to_images = "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms_nuls"
+path_to_images = "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms"
 
 with open(base_path + "/classic_data_spectro.csv", "r") as f:
     lines = f.readlines()

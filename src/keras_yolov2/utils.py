@@ -127,7 +127,7 @@ def draw_boxes(image, boxes, labels):
     return image
 
 
-def decode_netout(netout, anchors, nb_class, obj_threshold=0.5, nms_threshold=0.3): #on transforme ce qui sort du réseau en bounding boxes
+def decode_netout(netout, anchors, nb_class, obj_threshold=0.1, nms_threshold=0.1): #on transforme ce qui sort du réseau en bounding boxes
     grid_h, grid_w, nb_box = netout.shape[:3]
 
     boxes = []
@@ -153,6 +153,7 @@ def decode_netout(netout, anchors, nb_class, obj_threshold=0.5, nms_threshold=0.
                     h = anchors[2 * b + 1] * np.exp(h) / grid_h  # unit: image height
 
                     box = BoundBox(x - w / 2, y - h / 2, x + w / 2, y + h / 2, confidence, classes)
+                
                     boxes.append(box)
     # print(boxes)
     # suppress non-maximal boxes
@@ -171,10 +172,11 @@ def decode_netout(netout, anchors, nb_class, obj_threshold=0.5, nms_threshold=0.
                     if bbox_iou(boxes[index_i], boxes[index_j]) >= nms_threshold:
                         boxes[index_j].classes[c] = 0   # We changed index_i to index_j
                         #boxes[index_j].score = 0
-
+    
     # remove the boxes which are less likely than a obj_threshold
-    boxes = [box for box in boxes if box.get_score() > obj_threshold]
-    # print(boxes)
+    print("object threshold : ", obj_threshold)
+    boxes = [box for box in boxes if box.get_score() > obj_threshold] #ligne à changer si on veut garder les boxes avec un score inférieur à obj_threshold
+    
     return boxes
 
 

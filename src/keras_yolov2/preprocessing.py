@@ -382,7 +382,7 @@ class BatchGenerator(Sequence):
             exit(1)
 
     def __getitem__(self, idx):
-        print("getitem", idx)
+        
         
         # Set lower an upper id for this batch
         l_bound = idx * self._config['IMG_PER_BATCH']
@@ -573,9 +573,9 @@ class BatchGenerator(Sequence):
 
     def aug_image(self, idx):
         
-        print("look",idx)
-        print(self._images)
-        print(len(self._images))
+        # print("look",idx)
+        # print(self._images)
+        # print(len(self._images))
         train_instance = self._images[idx]
         image_name = train_instance['filename']
         if self._config['IMAGE_C'] == 1:

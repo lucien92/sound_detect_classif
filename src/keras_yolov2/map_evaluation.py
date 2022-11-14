@@ -27,8 +27,8 @@ class MapEvaluation(Callback):
     """
 
     def __init__(self, yolo, generator,
-                 iou_threshold=0.5,
-                 score_threshold=0.5,
+                 iou_threshold=0.01,
+                 score_threshold=0.01,
                  save_path=None,
                  period=1,
                  save_best=False,
@@ -75,13 +75,15 @@ class MapEvaluation(Callback):
                                             iou_threshold=self._iou_threshold,
                                             score_threshold=self._score_threshold)
             
+            print("helllo",pred_boxes) #renvoie toujours des listes vides
+            
             #print(f"{pred_boxes} ceci est la valeur de la pred box") #renvoie une liste vide si pas de bbox détectée
             
             # Load true results
             annotation_i = self._generator.load_annotation(i) #renvoie une liste contenant les annotations de l'image i sous forme des 4 coord + un élé
             
             
-            #print(f"{annotation_i} ceci est la valeur de l'annotation")
+            #print(f"{annotation_i} ceci est la valeur de l'annotation") #problème true_id ne veut rien dire, de taille 6
             
 
             # Conver annotations to BoundBoxes
@@ -122,7 +124,7 @@ class MapEvaluation(Callback):
             # Compute and add TP, FP and FN to the class prediction list
             #A partir de cettel ligne on rajoute TP, FP et FN à class_preddicted
 
-            print(class_preddicted)
+            print("on print class_predicted",class_preddicted)
             
             compute_class_TP_FP_FN(class_preddicted)  #on rajoute au dictionnaire class_preddicted les valeurs TP, FP et FN, par exemple TP=["VERREUR"]
             
