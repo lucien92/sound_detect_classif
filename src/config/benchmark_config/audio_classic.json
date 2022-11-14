@@ -24,7 +24,7 @@
         "pretrained_weights":   "",
         "freeze":               false,
         "finetune":             false,
-        "batch_size":           16,
+        "batch_size":           5,
         "learning_rate":        1e-3,
         "nb_epochs":            80,
 
@@ -59,7 +59,7 @@
         "sampling":             false,
         "mosaic":               "none",
 
-        "saved_weights_name":   "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/best_model.h5"
+        "saved_weights_name":   "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/audio_classic.h5"
         
     },
 

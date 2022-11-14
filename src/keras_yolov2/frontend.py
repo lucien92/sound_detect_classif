@@ -180,7 +180,7 @@ class YOLO(object):
         valid_generator = BatchGenerator(valid_imgs,
                                          generator_config,
                                          norm=self._feature_extractor.normalize,
-                                         sampling=sampling,
+                                         sampling=False,
                                          jitter=False) #pour tester avec du sampling sur les images de validation on met sampling=sampling
 
         ############################################

@@ -25,7 +25,7 @@ argparser.add_argument(
 argparser.add_argument(
     '-w',
     '--weights',
-    default='/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/best_model_bestLoss.h5',
+    default='/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/audio_classic_bestLoss.h5',
     help='path to pretrained weights')
 
 argparser.add_argument(

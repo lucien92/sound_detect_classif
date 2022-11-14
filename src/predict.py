@@ -21,7 +21,7 @@ argparser = argparse.ArgumentParser(
 argparser.add_argument(
   '-c',
   '--conf',
-  default='/home/acarlier/project_ornithoScope_lucien/src/config/benchmark_config/MobileNetV2_new_data1-.json',
+  default='/home/acarlier/code/audio_recognition_yolo/src/config/benchmark_config/audio_classic.json',
   type=str,
   help='path to configuration file')
 

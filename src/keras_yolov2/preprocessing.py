@@ -382,8 +382,8 @@ class BatchGenerator(Sequence):
             exit(1)
 
     def __getitem__(self, idx):
-        print(idx)
-        print(len(self._images))
+        print("getitem", idx)
+        
         # Set lower an upper id for this batch
         l_bound = idx * self._config['IMG_PER_BATCH']
         r_bound = (idx + 1) * self._config['IMG_PER_BATCH']
@@ -526,7 +526,9 @@ class BatchGenerator(Sequence):
         
         ## Use raw images as image set
         if not self._sampling:
+            
             self._images = self._raw_images
+            
             return
 
         ## Create image set using sampling
@@ -571,14 +573,25 @@ class BatchGenerator(Sequence):
 
     def aug_image(self, idx):
         
-        #print(idx)
-        #print(self._images[idx])
+        print("look",idx)
+        print(self._images)
+        print(len(self._images))
         train_instance = self._images[idx]
         image_name = train_instance['filename']
         if self._config['IMAGE_C'] == 1:
             image = cv2.imread(image_name, cv2.IMREAD_GRAYSCALE)
         elif self._config['IMAGE_C'] == 3:
             image = cv2.imread(image_name)
+            # import PIL
+            # from PIL import Image
+            # image = Image.open(image_name)
+            # pimg = np.array(image)
+            # image = cv2.cvtColor(pimg, cv2.COLOR_RGB2BGR)
+            
+            # #on veut afficher l'image
+            # pil_image=Image.fromarray((image*1).astype(np.uint8)).convert('RGB')
+            # pil_image.show()
+
             #print(type(image))
         else:
             raise ValueError("Invalid number of image channels.")
