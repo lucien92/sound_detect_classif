@@ -6,17 +6,17 @@
         "input_size_h":         224,
         "gray_mode":            false,
         "anchors":              [5.49950,8.57597, 9.26930,17.66783, 10.56113,10.43321, 15.44298,23.17856, 34.00303,34.41259],
-        "labels":               ["MESCHA", "SITTOR", "MESBLE", "MESNON", "PINARB", "ACCMOU", "ROUGOR", "VEREUR", "TOUTUR", "ECUROU", "PIEBAV", "MULGRI", "MESNOI", "MESHUP"],
+        "labels":               ["Hyla meridionalis", "Déplacement", "Pelodytes punctatus", "Epidalea calamita", "Voiture", "Branche", "Micro", "Vent", "Canis familiaris", "Pelophylax ridibundus", "Pelophylax kl.", "Voix", "Pelophylax perezi", "Epidalea calamita call", "Non identifié", "Bug informatique", "Cris"],
         "unwanted_labels":      ["noBird", "unknown"]
     },
 
     "data" : {
-        "base_path":            "/home/acarlier/code/data_ornithoscope/p0133_bird_data/raw_data",
-        "train_csv_file":       "/home/acarlier/project_ornithoScope_lucien/src/data/inputs/input_train_iNat_trainset.csv",
-        "valid_csv_file":       "/home/acarlier/project_ornithoScope_lucien/src/data/inputs/input_train_iNat_validset.csv",
-        "test_csv_file":        ["/home/acarlier/project_ornithoScope_lucien/src/data/inputs/input_test.csv"], 
-        "saved_weight_path":    "/home/acarlier/project_ornithoScope_lucien/src/data/saved_weights/",
-        "saved_pickles_path":   "/home/acarlier/project_ornithoScope_lucien/src/data/pickles"
+        "base_path":            "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms_nuls",
+        "train_csv_file":       "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/train.csv",
+        "valid_csv_file":       "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/val.csv",
+        "test_csv_file":        ["/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/test.csv"], 
+        "saved_weight_path":    "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights",
+        "saved_pickles_path":   "/home/acarlier/code/audio_recognition_yolo/src/data/pickles"
     },
 
     "train": {
@@ -26,7 +26,7 @@
         "finetune":             false,
         "batch_size":           16,
         "learning_rate":        1e-3,
-        "nb_epochs":            20,
+        "nb_epochs":            80,
 
         "workers":              12,
         "max_queue_size":       40,
@@ -59,7 +59,7 @@
         "sampling":             false,
         "mosaic":               "none",
 
-        "saved_weights_name":   "/home/acarlier/project_ornithoScope_lucien/src/data/saved_weights/benchmark_weights/model_classic.h5"
+        "saved_weights_name":   "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/best_model.h5"
         
     },
 

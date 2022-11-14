@@ -19,13 +19,13 @@ argparser = argparse.ArgumentParser(
 argparser.add_argument(
     '-c',
     '--conf',
-    default='/home/acarlier/project_ornithoScope_lucien/src/config/benchmark_config/best_model.json',
+    default='/home/acarlier/code/audio_recognition_yolo/src/config/benchmark_config/audio_classic.json',
     help='path to configuration file')
 
 argparser.add_argument(
     '-w',
     '--weights',
-    default='/home/acarlier/project_ornithoScope_lucien/src/data/saved_weights/benchmark_weights/best_model_bestLoss.h5',
+    default='/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/best_model_bestLoss.h5',
     help='path to pretrained weights')
 
 argparser.add_argument(

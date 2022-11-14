@@ -23,7 +23,7 @@ except:
     pass
 
 
-with open("/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv/classic_data.csv", "r") as f:
+with open("/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_wav/classic_data.csv", "r") as f:
     lines = f.readlines()
     for line in lines:
         

@@ -17,7 +17,7 @@ argparser = argparse.ArgumentParser(
 argparser.add_argument(
     '-c',
     '--conf',
-    default='/home/acarlier/project_ornithoScope_lucien/src/config/benchmark_config/best_model.json',
+    default='/home/acarlier/code/audio_recognition_yolo/src/config/benchmark_config/audio_classic.json',
     help='path to configuration file')
 
 
@@ -34,6 +34,8 @@ def _main_(args):
     train_imgs, train_labels = parse_annotation_csv(config['data']['train_csv_file'],
                                                     config['model']['labels'],
                                                     config['data']['base_path'])
+    print(train_imgs)
+    print(len(train_imgs))
 
     valid_path = config['data']['valid_csv_file']
 
@@ -54,7 +56,7 @@ def _main_(args):
         train_imgs = train_imgs[:train_valid_split]
         
     if len(config['model']['labels']) > 0:
-        overlap_labels = set(config['model']['labels']).intersection(set(train_labels.keys()))
+        overlap_labels = set(config['model']['labels']).intersection(set(train_labels.keys())) #s'il y a des labels qui sont dans la config mais pas danzs le train
 
         if len(overlap_labels) < len(config['model']['labels']):
             print('Some labels have no annotations! Please revise the list of labels in the config.json file!')
