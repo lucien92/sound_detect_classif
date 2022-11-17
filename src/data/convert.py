@@ -1,12 +1,17 @@
 import os
 import csv
+import glob
 
-base_path = '/home/acarlier/code/audio_recognition_yolo/src/data/Sons/'
+base_path = '/media/david/One Touch/PSI-BIOM/Travail/Enregistrements opportunistes/'
 
-for file in os.listdir(base_path):
-    if file.endswith('.txt'):
+
+for file in glob.iglob(base_path + '**/*.txt', recursive=True):
+#for file in os.listdir(base_path):
+    matches = ["log.txt", "Summary", "Readme"]
+
+    if not any(x in file for x in matches):
         print(file)
-        with open(base_path + file, 'r') as f:
+        with open(file, 'r') as f:
             lines = f.readlines()
             i = 1
             new_lines = []
@@ -40,17 +45,17 @@ for file in os.listdir(base_path):
             
             
         try:
-            os.mkdir(base_path + 'csv/')
+            os.mkdir(base_path + 'csv_wav/')
         except:
             pass
-        
-        
-        # with open('/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv/fake_classic_data.csv', 'a') as f:
-        #     writer = csv.writer(f)
-        #     for i in range(len(new_lines)):
-        #         writer.writerow([new_lines[i]])
+            
+            
+            with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'a') as f:
+                writer = csv.writer(f)
+                for i in range(len(new_lines)):
+                    writer.writerow([new_lines[i]])
                 
-with open('/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv/fake_classic_data.csv', 'r') as f:
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'r') as f:
     lines = f.readlines()
     new_lines = []
     for line in lines:
@@ -64,7 +69,7 @@ with open('/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv/fake_cla
         new_lines.append(line[0] + ',' + str(x) + ',' + str(z) + ',' + str(y) + ',' + str(w) + ',' + line[3])
         #print("hello", len(new_lines))
                 
-with open('/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv/classic_data.csv', 'w') as f:
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/classic_data.csv', 'w') as f:
     writer = csv.writer(f)# quoting = csv.QUOTE_NONE, escapechar=' ')
     #on veut écrire les élements de new_lines dans le fichier csv
     for i in range(len(new_lines)):

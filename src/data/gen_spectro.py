@@ -15,7 +15,7 @@ def melgram(y, n_fft, hop_length, n_mels):
 		)
 	)
 
-base_path = "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms/"
+base_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/"
 
 try:
     os.mkdir(base_path)
@@ -23,14 +23,14 @@ except:
     pass
 
 
-with open("/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_wav/classic_data.csv", "r") as f:
+with open("/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/classic_data.csv", "r") as f:
     lines = f.readlines()
     for line in lines:
         
         print(line)
         wav_doc = line.split(",")[0]
         waveform, _ = librosa.load(
-            path=f"/home/acarlier/code/audio_recognition_yolo/src/data/Sons/{wav_doc}", 
+            path=wav_doc, 
             sr=256*64
         ) 
 
@@ -43,16 +43,16 @@ with open("/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_wav/clas
         #on veut enlever les marges blanches
         plt.axis('off')
         plt.axes([0., 0., 1., 1.], frameon=False, xticks=[], yticks=[])
-        sr = librosa.get_samplerate(f"/home/acarlier/code/audio_recognition_yolo/src/data/Sons/{wav_doc}") 
+        sr = librosa.get_samplerate(wav_doc) 
         librosa.display.specshow(feature, sr=sr, x_axis='time', y_axis='linear')
-        plt.savefig(f"{base_path}{wav_doc[:-4]}.png", bbox_inches=None, pad_inches=0)
+        plt.savefig(f"{base_path}{wav_doc.rsplit('/', 1)[1][:-4]}.png", bbox_inches=None, pad_inches=0)
         #plt.show()
         plt.close()
 
         #Il y a différentes fréquence d'échantillonage(sampling rate) (cela pour capter différents bruits). 
         #Le sampling rate vaut deux fois la valeur maximale captée.
         #Mais comme le sampling rate varie selon les enregistrements, on va normaliser les spectogrammes
-        # sr = librosa.get_samplerate(f"/home/acarlier/code/audio_recognition_yolo/src/data/Sons/{wav_doc}") 
+        # sr = librosa.get_samplerate(wav_doc) 
         # print(sr)
         # librosa.display.specshow(feature, sr=sr, fmax = 48000) #sr est la frequence d'echantillonagemax multipliée par 2
         # plt.savefig(base_path + f"{wav_doc[:-4]}.png")

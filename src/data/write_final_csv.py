@@ -4,9 +4,9 @@ from PIL import Image
 
 #paths
 
-base_path = "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro"
+base_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_spectro"
 
-path_to_data = "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_wav/classic_data.csv"
+path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/classic_data.csv"
 
 #we write a csv replacinf the path to the .wav path by a path to the spectrogram image
 
@@ -19,7 +19,7 @@ with open(path_to_data, "r") as f:
             f2.write(",".join(line))
             
 #on veut rajouter deux colonnes qui indiquent la taille de l'image renseignée dans le csv à line[0]
-path_to_images = "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms"
+path_to_images = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms"
 
 with open(base_path + "/classic_data_spectro.csv", "r") as f:
     lines = f.readlines()

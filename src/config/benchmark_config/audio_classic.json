@@ -11,12 +11,12 @@
     },
 
     "data" : {
-        "base_path":            "/home/acarlier/code/audio_recognition_yolo/src/data/Spectrograms",
-        "train_csv_file":       "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/train.csv",
-        "valid_csv_file":       "/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/val.csv",
-        "test_csv_file":        ["/home/acarlier/code/audio_recognition_yolo/src/data/Sons/csv_spectro/test.csv"], 
-        "saved_weight_path":    "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights",
-        "saved_pickles_path":   "/home/acarlier/code/audio_recognition_yolo/src/data/pickles"
+        "base_path":            "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms",
+        "train_csv_file":       "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_spectro/train.csv",
+        "valid_csv_file":       "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_spectro/val.csv",
+        "test_csv_file":        ["/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_spectro/test.csv"], 
+        "saved_weight_path":    "/home/david/Escriptori/Feines/sound_detect_classif/src/data/saved_weights/benchmark_weights",
+        "saved_pickles_path":   "/home/david/Escriptori/Feines/sound_detect_classif/src/data/pickles"
     },
 
     "train": {
@@ -59,7 +59,7 @@
         "sampling":             false,
         "mosaic":               "none",
 
-        "saved_weights_name":   "/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/audio_classic.h5"
+        "saved_weights_name":   "/home/david/Escriptori/Feines/sound_detect_classif/src/data/saved_weights/benchmark_weights/audio_classic.h5"
         
     },
 
