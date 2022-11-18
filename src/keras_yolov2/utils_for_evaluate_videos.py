@@ -17,21 +17,21 @@ import datetime
 
 #on récupère les espèces du csv  
 
-def obtain_list_especes_reelles(videos_path):
+def obtain_species_lists_reelles(videos_path):
     with open("/home/acarlier/project_ornithoScope_lucien/src/data/all_videos_annotated.csv", 'r') as f:
         reader = csv.reader(f)
         list_videos = list(reader)
-    list_especes_reelles = []
+    species_lists_reelles = []
     #on veut extraire le nom de la vidéo de videos_path
     video_name = videos_path.split("/")[-1]
     for video in list_videos:
         if video[0] == video_name:
             #on récupére tous les élements de la liste sauf le premier qui est le nom de la vidéo
-            list_especes_reelles = video[1:]
+            species_lists_reelles = video[1:]
 
-    return list_especes_reelles
+    return species_lists_reelles
 
-def predict_videos(videos_path, config_path, weights_path, list_especes_reelles):
+def predict_videos(videos_path, config_path, weights_path, species_lists_reelles):
     
     videos_format = ['.mp4', 'avi']
         # Load config file
@@ -143,45 +143,45 @@ def predict_videos(videos_path, config_path, weights_path, list_especes_reelles)
 
     #cas n°1: une espèce peut en remplacer une autre sur la mangeoire et on prend toutes les espèces d'une même id ayant un trust supérieur à 20
     
-    # list_especes_predites = []
+    # species_lists_predites = []
     # id_res = list(res.keys())
     # for id in id_res:
-    #     list_especes = list(res[id].keys())
+    #     species_lists = list(res[id].keys())
     #     removed = []
-    #     for especes in list_especes:
+    #     for especes in species_lists:
             
     #         if res[id][especes] < 20:
     #             print("espece supprimée:",especes)
     #             removed.append(especes)
-    #             print("nouvelle liste des espèces:",list_especes) 
+    #             print("nouvelle liste des espèces:",species_lists) 
 
 
     #     for espece in removed: #méthode de code classique! Ne jamais bouclé sur une liste dont on supprime des éléments, même si on n'utilise pas ses indices
-    #         list_especes.remove(espece)
+    #         species_lists.remove(espece)
 
-    #     if len(list_especes) > 0: #cas n°1 où on suppose qu'une espèce peut en remplacer une autre en la poussant et alors garder la même bbox: on prend toutes les espèces d'une même id et non le trust max d'une même id
-    #         for i in range(len(list_especes)):
-                # list_especes_predites.append(list_especes[i])
+    #     if len(species_lists) > 0: #cas n°1 où on suppose qu'une espèce peut en remplacer une autre en la poussant et alors garder la même bbox: on prend toutes les espèces d'une même id et non le trust max d'une même id
+    #         for i in range(len(species_lists)):
+                # species_lists_predites.append(species_lists[i])
 
     #cas n°2: une espèce peut en remplacer une autre sur la mangeoire et on prend la plus grande bbox de chaque id
     
-    list_especes_predites = []
+    species_lists_predites = []
     id_res = list(res.keys())
     for id in id_res:
-        list_especes = list(res[id].keys())
+        species_lists = list(res[id].keys())
         #on ne veut garder que la clé de res[id] qui a la plus grande valeur
         max_trust = max(list(res[id].values()))
-        list_especes_predites.append(list(res[id].keys())[list(res[id].values()).index(max_trust)])
-    print("liste des espèces prédites:",list_especes_predites)
+        species_lists_predites.append(list(res[id].keys())[list(res[id].values()).index(max_trust)])
+    print("liste des espèces prédites:",species_lists_predites)
        
    #cas n°3: on prend le max des trust si juste une seul id est supérieur à 50, sinon on prend les deux espèces de la même id avec un trust supérieur à 50
    
-    print("liste des espèces finales",list_especes_predites)
+    print("liste des espèces finales",species_lists_predites)
     print("\n")
 
     #on veut écrire le nombre de frame pour chaque espèce apparaissant dans la vidéo, mais seulement pour les vidéos bien prédites
     
-    #if set(list_especes_predites) == set(list_especes_reelles):
+    #if set(species_lists_predites) == set(species_lists_reelles):
         
     #d'abord on cherche la durée de la videos en secondes
     
@@ -202,51 +202,51 @@ def predict_videos(videos_path, config_path, weights_path, list_especes_reelles)
         L = [videos_path]
         for index in res2:  
             for especes in res2[index]:
-                if especes in list_especes_predites:
+                if especes in species_lists_predites:
                     if res2[index][especes] > 7: #si l'apparition est supérieur à 7 frames (soit environ un quart de seconde minimal, on considère que c'est le temps minimal raisonnable de détection pour que l'espèce soit présente sur la mangeoire)
                         
                         time_espece = res2[index][especes]/fps
                         # writer.writerow([time_espece])
                         L.append(time_espece)
         writer.writerow(L) #onveut tout afficheer sur la même ligne du csv donc on utilise une liste
-    return list_especes_predites
+    return species_lists_predites
 
 
 #on calcules metrics image par image
 
-def compute_TP_FP_FN(list_especes_predites, list_especes_reelles):
+def compute_TP_FP_FN(species_lists_predites, species_lists_reelles):
     TP = 0
     FP = 0
     FN = 0
-    for especes in list_especes_predites:
-        if especes in list_especes_reelles:
+    for especes in species_lists_predites:
+        if especes in species_lists_reelles:
             TP += 1
         else:
             FP += 1
-    for especes in list_especes_reelles:
-        if especes not in list_especes_predites:
+    for especes in species_lists_reelles:
+        if especes not in species_lists_predites:
             FN += 1
     return TP, FP, FN  #on retourne les valeurs de TP, FP et FN, qui sont des listes, pour une image
 
 #on affiche les espèces qui sont TP, FP et FN
 
-def display_TP_FP_FN(list_especes_predites, list_especes_reelles):
+def display_TP_FP_FN(species_lists_predites, species_lists_reelles):
     TP_list = []
     FP_list = []
     FN_list = []
-    for especes in list_especes_predites:
-        if especes in list_especes_reelles:
+    for especes in species_lists_predites:
+        if especes in species_lists_reelles:
             TP_list.append(especes)
         else:
             FP_list.append(especes)
-    for especes in list_especes_reelles:
-        if especes not in list_especes_predites:
+    for especes in species_lists_reelles:
+        if especes not in species_lists_predites:
             FN_list.append(especes)
     return TP_list, FP_list, FN_list  #on retourne les valeurs de TP, FP et FN, qui sont des listes, pour une image
 #on calcule les metrics globales pour un ensemble de vidéos
 
-def compute_F1_score_for_videos(list_especes_predites, list_especes_reelles):
-    TP, FP, FN = compute_TP_FP_FN(list_especes_predites, list_especes_reelles)
+def compute_F1_score_for_videos(species_lists_predites, species_lists_reelles):
+    TP, FP, FN = compute_TP_FP_FN(species_lists_predites, species_lists_reelles)
     if TP+FP != 0:
         precision = TP/(TP+FP)
     else:
@@ -354,16 +354,16 @@ def print_results_metrics_per_classes(class_res):
 
 #fonction pour détecter les images mal annotées
 
-def detect_bad_annotated_images_and_save_path(list_especes_predites, list_especes_reelles, videos_path):
+def detect_bad_annotated_images_and_save_path(species_lists_predites, species_lists_reelles, videos_path):
     with open('/home/acarlier/project_ornithoScope_lucien/src/data/comparate_results_videos/results_prediction.csv', 'a') as f:
         writer = csv.writer(f)
-        writer.writerow([videos_path, list_especes_predites, list_especes_reelles])
+        writer.writerow([videos_path, species_lists_predites, species_lists_reelles])
         print(f' register video {videos_path} done')
     #si on ne retrouve pas les même espèces dans les deux liste alors on enregistre le nom de la vidéo dans un fichier csv
-    if set(list_especes_predites) != set(list_especes_reelles):
+    if set(species_lists_predites) != set(species_lists_reelles):
         with open('/home/acarlier/project_ornithoScope_lucien/src/data/videos_with_diff_species_max20.csv', 'a') as f:
             writer = csv.writer(f)
-            writer.writerow([videos_path, list_especes_predites, list_especes_reelles])
+            writer.writerow([videos_path, species_lists_predites, species_lists_reelles])
             
             
 

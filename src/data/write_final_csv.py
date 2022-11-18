@@ -4,11 +4,11 @@ from PIL import Image
 
 #paths
 
-base_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_spectro"
+base_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs"
 
-path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/classic_data.csv"
+path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/classic_data.csv"
 
-#we write a csv replacinf the path to the .wav path by a path to the spectrogram image
+#we write a csv replacing the path to the .wav file with a path to the spectrogram image
 
 with open(path_to_data, "r") as f:
     lines = f.readlines()
@@ -26,8 +26,9 @@ with open(base_path + "/classic_data_spectro.csv", "r") as f:
     with open(base_path + "/classic_data_spectro.csv", "w") as f2:
         for line in lines:
             line = line.split(",")
+            line[0] = path_to_images + "/" + line[0].rsplit('/', 1)[1]
             try:
-                img = Image.open(path_to_images + "/" + line[0])
+                img = Image.open(line[0])
                 width, height = img.size
                 line.append(str(width))
                 line.append(str(height) + '\n')

@@ -46,12 +46,12 @@ for file in glob.iglob(base_path + '**/*.txt', recursive=True):
             
             
         try:
-            os.mkdir('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/')
+            os.mkdir('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/')
         except:
             pass
             
             
-            # with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'a') as f:
+            # with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/temp_classic_data.csv', 'a') as f:
             #     writer = csv.writer(f)
             #     for i in range(len(new_lines)):
             #         writer.writerow([new_lines[i]])
@@ -59,14 +59,14 @@ for file in glob.iglob(base_path + '**/*.txt', recursive=True):
                 annotations.append(new_lines[i])
 
 
-with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'w') as f:
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/temp_classic_data.csv', 'w') as f:
     writer = csv.writer(f)
 
     for line in annotations:
         print(line.split(','))
-        writer.writerow(line.split(','))              
+        writer.writerow(line.replace(" ,", ",").split(','))              
                 
-with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'r') as f:
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/temp_classic_data.csv', 'r') as f:
     lines = f.readlines()
     new_lines = []
     for line in lines:
@@ -80,14 +80,17 @@ with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_
         new_lines.append(line[0] + ',' + str(x) + ',' + str(z) + ',' + str(y) + ',' + str(w) + ',' + line[3])
         #print("hello", len(new_lines))
                 
-with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/classic_data.csv', 'w') as f:
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/classic_data.csv', 'w') as f:
     writer = csv.writer(f)# quoting = csv.QUOTE_NONE, escapechar=' ')
     #on veut écrire les élements de new_lines dans le fichier csv
     for i in range(len(new_lines)):
         #on veut écrire line sans guillemets sur le csv
         writer.writerow(new_lines[i].split(','))
 
-
+try:
+    os.remove('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/temp_classic_data.csv')
+except OSError:
+    pass
             
             
         

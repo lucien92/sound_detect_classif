@@ -21,14 +21,14 @@ argparser = argparse.ArgumentParser(
 argparser.add_argument(
   '-c',
   '--conf',
-  default='/home/acarlier/code/audio_recognition_yolo/src/config/benchmark_config/audio_classic.json',
+  default='/home/david/Escriptori/Feines/sound_detect_classif/src/config/benchmark_config/audio_classic.json',
   type=str,
   help='path to configuration file')
 
 argparser.add_argument(
   '-w',
   '--weights',
-  default='/home/acarlier/code/audio_recognition_yolo/src/data/saved_weights/benchmark_weights/audio_classic_bestLoss.h5',
+  default='/home/david/Escriptori/Feines/sound_detect_classif/src/data/saved_weights/benchmark_weights/audio_classic_bestLoss.h5',
   type=str,
   help='path to pretrained weights')
 
@@ -225,18 +225,18 @@ def _main_(args):
     res2 = res
     for id in res:
       print("id:",id)
-      list_especes = list(res[id].keys())
-      for especes in list_especes:
+      species_lists = list(res[id].keys())
+      for especes in species_lists:
         if res[id][especes] < 20:
-          list_especes.pop(list_especes.index(especes))
+          species_lists.pop(species_lists.index(especes))
 
     res3 = {}
     for id in res2:
       res3[id] = {}
-      for especes in list_especes:
+      for especes in species_lists:
         res3[id][especes] = res2[id][especes]
 
-    print(list_especes)
+    print(species_lists)
     print("resultat final:",res3)
 
   ### Image

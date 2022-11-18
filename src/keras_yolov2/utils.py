@@ -456,16 +456,16 @@ def compute_class_TP_FP_FN(dict_pred):
     dict_pred['FP'] = FP
 
 
-def compute_class_videos_TP_FP_FN(list_especes_predites, list_true_espece):
+def compute_class_videos_TP_FP_FN(species_lists_predites, list_true_espece):
 
     dict_pred = {'TP': [], 'FP': [], 'FN': []}
     TP = []
     FP = []
     FN = []
     
-    FP = copy.deepcopy(list_especes_predites)
+    FP = copy.deepcopy(species_lists_predites)
     FN = copy.deepcopy(list_true_espece)
-    for pl in list_especes_predites:
+    for pl in species_lists_predites:
         if pl in list_true_espece:
             list_true_espece.remove(pl)
             try:
