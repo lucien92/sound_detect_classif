@@ -1,9 +1,10 @@
 import os
 import csv
 import glob
+import itertools
 
 base_path = '/media/david/One Touch/PSI-BIOM/Travail/Enregistrements opportunistes/'
-
+annotations = []
 
 for file in glob.iglob(base_path + '**/*.txt', recursive=True):
 #for file in os.listdir(base_path):
@@ -45,15 +46,25 @@ for file in glob.iglob(base_path + '**/*.txt', recursive=True):
             
             
         try:
-            os.mkdir(base_path + 'csv_wav/')
+            os.mkdir('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/')
         except:
             pass
             
             
-            with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'a') as f:
-                writer = csv.writer(f)
-                for i in range(len(new_lines)):
-                    writer.writerow([new_lines[i]])
+            # with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'a') as f:
+            #     writer = csv.writer(f)
+            #     for i in range(len(new_lines)):
+            #         writer.writerow([new_lines[i]])
+            for i in range(len(new_lines)):
+                annotations.append(new_lines[i])
+
+
+with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'w') as f:
+    writer = csv.writer(f)
+
+    for line in annotations:
+        print(line.split(','))
+        writer.writerow(line.split(','))              
                 
 with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_wav/fake_classic_data.csv', 'r') as f:
     lines = f.readlines()
@@ -74,7 +85,7 @@ with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/Sons/csv_
     #on veut écrire les élements de new_lines dans le fichier csv
     for i in range(len(new_lines)):
         #on veut écrire line sans guillemets sur le csv
-        writer.writerow([new_lines[i]])
+        writer.writerow(new_lines[i].split(','))
 
 
             
