@@ -16,6 +16,7 @@ def melgram(y, n_fft, hop_length, n_mels):
 		)
 	)
 
+
 base_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/"
 
 try:
@@ -25,32 +26,58 @@ except:
 
 max_sr = 96000
 
+file_list = []
+
 with open("/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/classic_data.csv", "r") as f:
     lines = f.readlines()
     for line in lines:
-        
-        print(line)
-        wav_doc = line.split(",")[0]
-        waveform, _ = librosa.load(
-            path=wav_doc, 
-            sr=256*64
-        ) 
+        file_list.append(line.split(",")[0])
 
-        feature = spectrogram(waveform, 512, 256) #nfft et hop_length, nfft est la taille de la fenetre, hop_length est le pas entre deux fenetres
+# Preserving only one copy of each file name
+file_list = list(set(file_list))
+file_list.sort()
 
-        sr = librosa.get_samplerate(wav_doc) 
-        sr_to_max_sr_ratio = sr / max_sr
+for wav_doc in file_list:
+    
+    print(wav_doc)
+    waveform, _ = librosa.load(wav_doc) 
+
+    sr = librosa.get_samplerate(wav_doc) 
+    sr_to_max_sr_ratio = sr / max_sr
+    
+    # Get number of samples for 5 seconds
+    buffer = round(5 * sr/2)
+
+    total_samples = len(waveform)
+    saved_samples = 0
+    counter = 1
+
+    while (saved_samples + buffer) < total_samples:
+
+        #check if the buffer is not exceeding total samples 
+        if buffer > (total_samples - saved_samples):
+            buffer = total_samples - saved_samples
+
+        block = waveform[saved_samples : (saved_samples + buffer)]
+        suffix = "_split_" + str(counter)
+
+        feature = spectrogram(block, 512, 256) #nfft et hop_length, nfft est la taille de la fenetre, hop_length est le pas entre deux fenetres
+
+
 
         #on veut transofrmer cet array en image
 
-        plt.figure(figsize=(10, round(4*sr_to_max_sr_ratio)))
+        fig_width = 10
+        fig_height = 20*sr_to_max_sr_ratio
+        
+        plt.figure(figsize=(fig_width, fig_height))
         #on veut enlever les marges blanches
         plt.axis('off')
         plt.axes([0., 0., 1., 1.], frameon=False, xticks=[], yticks=[])
 
         librosa.display.specshow(feature, sr=sr, x_axis='time', y_axis='linear')
         
-        image_path = f"{base_path}{wav_doc.rsplit('/', 1)[1][:-4]}.png"
+        image_path = f"{base_path}{wav_doc.rsplit('/', 1)[1][:-4]}{suffix}.png"
         plt.savefig(image_path, bbox_inches=None, pad_inches=0)
         #plt.show()
         plt.close()
@@ -60,20 +87,22 @@ with open("/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/clas
         # recorded with lower sampling frequencies.
         img = Image.open(image_path)
         img_w, img_h = img.size
-        background = Image.new('RGBA', (1000, 400), (0, 0, 0, 255))
+
+        # Image size = 1000 x 400 px
+        background = Image.new('RGBA', (round(fig_width * 100), 2000), (0, 0, 0, 255))
         bg_w, bg_h = background.size
-        offset = ((bg_w - img_w), round(400 - 400*sr_to_max_sr_ratio))
+
+        # Ensuring that the resulting image will have a size of 1000 x 400 px
+        offset = ((bg_w - img_w), round(2000 - 2000*sr_to_max_sr_ratio))
         background.paste(img, offset)
         background.save(image_path)
 
-        #Il y a différentes fréquence d'échantillonage(sampling rate) (cela pour capter différents bruits). 
-        #Le sampling rate vaut deux fois la valeur maximale captée.
-        #Mais comme le sampling rate varie selon les enregistrements, on va normaliser les spectogrammes
-        # sr = librosa.get_samplerate(wav_doc) 
-        # print(sr)
-        # librosa.display.specshow(feature, sr=sr, fmax = 48000) #sr est la frequence d'echantillonagemax multipliée par 2
-        # plt.savefig(base_path + f"{wav_doc[:-4]}.png")
-        # plt.show()
+        counter += 1
+        saved_samples += buffer
+
+
+    
+
         
 
 
