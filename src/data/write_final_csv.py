@@ -54,10 +54,10 @@ with open(base_path + "/classic_data_spectro.csv", "r") as f:
             try:
                 img = Image.open(line[0])
                 width, height = img.size
-                line[1] = str(float(line[1]) * width / 5)
-                line[3] = str(float(line[3]) * width / 5)
-                line[2] = str(float(line[2]) * height / 48000)
-                line[4] = str(float(line[4]) * height / 48000)
+                line[1] = str(round(float(line[1]) * width / 5))
+                line[3] = str(round(float(line[3]) * width / 5))
+                line[2] = str(round(float(line[2]) * height / 48000))
+                line[4] = str(round(float(line[4]) * height / 48000))
                 line.append(str(width))
                 line.append(str(height) + '\n')
                 line[5] = line[5].replace('\n', '')
