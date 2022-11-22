@@ -116,13 +116,14 @@ def draw_boxes(image, boxes, labels):
 
         line_width_factor = int(min(image_h, image_w) * 0.005)
         cv2.rectangle(image, (xmin, ymin), (xmax, ymax), colors[box.get_label()], line_width_factor * 2)
-        cv2.putText(image, "{} {:.3f}".format(labels[box.get_label()], box.get_score()),
-                    (xmin, ymin + line_width_factor * 10), cv2.FONT_HERSHEY_PLAIN, 2e-3 * min(image_h, image_w),
-                    (0, 255, 0), line_width_factor)
-        if box.id >= 0:
-            cv2.putText(image, "ID : {}".format(box.id),
-                        (xmin, ymin + 2 * line_width_factor * 10), cv2.FONT_HERSHEY_PLAIN, 2e-3 * min(image_h, image_w),
-                        (0, 255, 0), line_width_factor)
+        cv2.imshow("nom",image)
+        # cv2.putText(image, "{} {:.3f}".format(labels[box.get_label()], box.get_score()),
+        #             (xmin, ymin + line_width_factor * 10), cv2.FONT_HERSHEY_PLAIN, 2e-3 * min(image_h, image_w),
+        #             (0, 255, 0), line_width_factor)
+        # if box.id >= 0:
+        #     cv2.putText(image, "ID : {}".format(box.id),
+        #                 (xmin, ymin + 2 * line_width_factor * 10), cv2.FONT_HERSHEY_PLAIN, 2e-3 * min(image_h, image_w),
+        #                 (0, 255, 0), line_width_factor)
 
     return image
 
