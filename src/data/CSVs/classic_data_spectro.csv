@@ -1,8 +1,11 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_1.png,122,23,920,552,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_2.png,0,22,1000,299,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_3.png,0,22,1000,299,Pelophylax kl.,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_4.png,0,22,209,299,Pelophylax kl.,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_2.png,762,0,1000,41,Vent,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_3.png,0,0,1000,41,Vent,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_4.png,0,0,103,41,Vent,900,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_4.png,547,22,621,280,Pelophylax kl.,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_dlpetuc11FR_19V2022_i186_split_1.png,82,33,1000,340,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_dlpetuc11FR_19V2022_i186_split_2.png,0,33,1000,340,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_dlpetuc11FR_19V2022_i186_split_3.png,0,33,1000,340,Hyla meridionalis,1000,2000
@@ -63,6 +66,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_19III2022_i47_split_3.png,402,53,472,203,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_19III2022_i47_split_3.png,540,76,664,841,Pelophylax ridibundus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_19III2022_i47_split_3.png,782,88,908,828,Pelophylax ridibundus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_19III2022_i47_split_4.png,6,88,50,821,Pelophylax ridibundus,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_1.png,28,163,570,824,Arroseur,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_1.png,356,59,524,190,Pelophylax ridibundus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_1.png,592,160,1000,897,Arroseur,1000,2000
@@ -103,10 +107,14 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_6.png,308,50,358,70,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_6.png,614,71,778,192,Pelophylax ridibundus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_7.png,220,180,1000,838,Arroseur,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_8.png,0,180,18,838,Arroseur,200,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_7.png,254,40,294,59,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_7.png,320,73,458,190,Pelophylax ridibundus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_7.png,766,41,810,70,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_7.png,910,70,1000,199,Pelophylax ridibundus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_8.png,0,70,16,199,Pelophylax ridibundus,200,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_8.png,22,185,39,838,Arroseur,200,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_jtfoalb81FR_23III2022_i48_split_8.png,24,42,38,66,Pelophylax kl.,200,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdbifon31FR_21III2022_i46_split_1.png,20,30,110,96,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdbifon31FR_21III2022_i46_split_1.png,278,32,354,85,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdbifon31FR_21III2022_i46_split_1.png,570,31,674,98,Hyla meridionalis,1000,2000
@@ -131,6 +139,11 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_2.png,270,30,404,89,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_2.png,620,39,760,122,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_2.png,796,30,878,95,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_3.png,104,38,187,112,Hyla meridionalis,800,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_3.png,195,36,269,99,Hyla meridionalis,800,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_3.png,269,29,336,86,Hyla meridionalis,800,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_3.png,371,39,469,103,Hyla meridionalis,800,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i55_split_3.png,493,28,557,88,Hyla meridionalis,800,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_1.png,102,87,204,109,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_1.png,236,67,350,103,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_1.png,392,47,470,90,Hyla meridionalis,1000,2000
@@ -154,16 +167,20 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_4.png,600,77,708,101,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_4.png,714,44,794,87,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_4.png,954,45,1000,112,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_5.png,0,45,40,112,Hyla meridionalis,600,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_pdlmtou09FR_25IV2022_i56_split_5.png,158,74,223,101,Hyla meridionalis,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_1.png,4,20,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_2.png,0,20,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_3.png,0,20,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_4.png,0,20,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_5.png,0,20,1000,208,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i49_split_6.png,0,20,510,208,Hyla meridionalis,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_1.png,0,30,1000,170,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_2.png,0,30,1000,170,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_3.png,0,30,1000,170,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_4.png,0,30,1000,170,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_5.png,0,30,1000,170,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_6.png,0,30,241,170,Hyla meridionalis,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_1.png,88,12,864,32,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_1.png,822,13,1000,31,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_2.png,0,13,364,31,Voix,1000,2000
@@ -175,6 +192,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_5.png,0,16,86,31,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_5.png,372,14,484,24,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_5.png,606,15,998,28,Voix,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i50_split_6.png,110,9,245,28,Voix,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i51_split_1.png,0,27,1000,223,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i51_split_2.png,0,27,1000,223,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i51_split_3.png,0,27,1000,223,Hyla meridionalis,1000,2000
@@ -210,6 +228,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i53_split_5.png,810,72,888,141,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i53_split_7.png,270,70,336,142,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i53_split_7.png,538,69,618,139,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i53_split_8.png,98,74,129,138,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i54_split_1.png,0,76,26,138,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i54_split_1.png,232,36,326,178,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_rdlplbb09FR_08IV2022_i54_split_1.png,702,39,788,178,Pelodytes punctatus,1000,2000
@@ -454,9 +473,12 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_7.png,874,13,1000,37,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_8.png,0,13,496,37,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_8.png,584,13,1000,239,Pelophylax perezi,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_9.png,0,13,57,239,Pelophylax perezi,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_8.png,686,14,888,82,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_8.png,938,0,1000,14,Micro,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_9.png,0,0,28,14,Micro,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_8.png,960,17,1000,71,Voix,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i121_split_9.png,0,17,16,71,Voix,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_1.png,22,17,390,634,Pelophylax perezi,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_1.png,120,25,154,43,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_1.png,408,17,1000,252,Pelophylax perezi,1000,2000
@@ -609,6 +631,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_34.png,0,17,1000,255,Pelophylax perezi,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_35.png,0,17,1000,255,Pelophylax perezi,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_36.png,0,17,1000,255,Pelophylax perezi,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_37.png,0,17,675,255,Pelophylax perezi,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_29.png,328,14,474,66,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_29.png,518,14,628,39,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_29.png,686,18,758,31,Voix,1000,2000
@@ -641,6 +664,9 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_36.png,554,13,616,39,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_36.png,720,15,776,39,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_36.png,804,11,878,65,Voix,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_37.png,13,12,65,21,Voix,900,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_37.png,313,13,612,42,Voix,900,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_06V2022_i122_split_37.png,706,13,799,34,Voix,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i115_split_1.png,72,21,1000,312,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i115_split_2.png,0,21,1000,312,Pelophylax kl.,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i115_split_3.png,0,21,600,312,Pelophylax kl.,1000,2000
@@ -713,6 +739,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_4.png,0,42,1000,73,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_5.png,0,42,1000,73,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_6.png,0,42,1000,73,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_7.png,0,42,241,73,Epidalea calamita,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_1.png,54,0,138,44,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_1.png,180,0,194,15,Micro,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXporXXES_30IV2022_i116_split_1.png,270,0,280,11,Micro,1000,2000
@@ -723,6 +750,8 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27II2019_i19_split_3.png,530,5,1000,677,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27II2019_i19_split_4.png,0,5,96,677,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27II2019_i19_split_4.png,364,30,1000,223,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27II2019_i19_split_5.png,0,30,657,223,Pelodytes punctatus,900,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27II2019_i19_split_5.png,652,2,900,667,Déplacement,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_1.png,0,16,1000,165,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_2.png,0,16,1000,165,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_3.png,0,16,1000,165,Pelodytes punctatus,1000,2000
@@ -823,17 +852,22 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_42.png,476,24,746,169,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_43.png,354,23,640,163,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_43.png,410,0,460,16,Micro,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_44.png,35,0,56,19,Micro,600,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_27IV2022_i114_split_44.png,128,0,155,14,Micro,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_1.png,116,41,174,653,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_1.png,164,53,1000,154,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_2.png,0,53,1000,154,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_3.png,0,53,1000,154,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_4.png,0,53,1000,154,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_5.png,0,53,1000,154,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_6.png,0,53,299,154,Pelodytes punctatus,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_4.png,412,0,436,642,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i20_split_5.png,216,118,340,658,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i21_split_1.png,66,57,1000,101,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i21_split_2.png,0,57,1000,101,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i21_split_3.png,0,57,60,101,Pelodytes punctatus,200,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i22_split_1.png,108,53,1000,107,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXsma07FR_28II2019_i22_split_2.png,0,53,332,107,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i57_split_1.png,612,41,1000,60,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i57_split_2.png,0,41,1000,60,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i57_split_3.png,0,41,1000,60,Alytes obstetricans,1000,2000
@@ -900,6 +934,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i60_split_51.png,0,18,2,28,Canis familiaris,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i60_split_51.png,548,18,734,27,Canis familiaris,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i60_split_52.png,940,5,1000,22,Gargouillement,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i60_split_53.png,0,5,30,22,Gargouillement,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i61_split_1.png,0,70,746,96,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i61_split_1.png,790,21,958,366,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i61_split_2.png,142,67,870,98,Hyla meridionalis,1000,2000
@@ -941,6 +976,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i101_split_20.png,0,15,390,303,Epidalea calamita call,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i101_split_22.png,826,17,1000,298,Epidalea calamita call,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i101_split_23.png,0,17,120,298,Epidalea calamita call,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i101_split_28.png,108,0,150,38,Micro,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i102_split_1.png,14,15,900,249,Epidalea calamita call,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i102_split_1.png,60,0,126,17,Micro,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i102_split_1.png,160,0,212,12,Micro,1000,2000
@@ -1030,6 +1066,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i104_split_22.png,32,117,40,387,Goutte,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i104_split_22.png,378,0,402,9,Micro,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i104_split_22.png,744,16,1000,163,Epidalea calamita call,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_23IV2022_i104_split_23.png,0,16,446,163,Epidalea calamita call,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i62_split_1.png,20,46,106,125,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i62_split_1.png,68,0,76,346,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i62_split_1.png,114,39,146,691,Déplacement,1000,2000
@@ -1052,6 +1089,8 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i62_split_4.png,748,35,1000,171,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i62_split_4.png,906,0,970,420,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i63_split_1.png,92,30,1000,168,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i63_split_2.png,0,30,223,168,Pelodytes punctatus,600,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i63_split_2.png,358,38,390,156,Pelodytes punctatus,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_1.png,32,14,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_2.png,0,14,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_3.png,0,14,1000,219,Pelodytes punctatus,1000,2000
@@ -1062,6 +1101,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_8.png,0,14,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_9.png,0,14,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_10.png,0,14,1000,219,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i64_split_11.png,0,14,648,219,Pelodytes punctatus,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i65_split_1.png,8,0,118,119,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i65_split_1.png,168,40,1000,174,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i65_split_2.png,0,40,1000,174,Pelodytes punctatus,1000,2000
@@ -1114,6 +1154,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i67_split_10.png,0,20,1000,300,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i67_split_11.png,0,20,1000,300,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i67_split_12.png,0,20,1000,300,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i67_split_13.png,0,20,800,300,Epidalea calamita,800,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_1.png,22,38,1000,162,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_2.png,0,38,1000,162,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_3.png,0,38,1000,162,Epidalea calamita,1000,2000
@@ -1122,6 +1163,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_6.png,0,38,1000,162,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_7.png,0,38,130,162,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_7.png,156,48,1000,78,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i68_split_8.png,0,48,143,78,Epidalea calamita,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_1.png,0,21,1000,168,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_2.png,0,21,1000,168,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_3.png,0,21,1000,168,Epidalea calamita,1000,2000
@@ -1130,7 +1172,9 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_6.png,0,21,1000,168,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_7.png,0,21,1000,168,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_8.png,0,21,1000,168,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_9.png,0,21,194,168,Epidalea calamita,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_8.png,242,0,1000,22,Déplacement,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i69_split_9.png,0,0,133,22,Déplacement,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_1.png,0,28,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_2.png,0,28,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_3.png,0,28,1000,219,Pelodytes punctatus,1000,2000
@@ -1153,6 +1197,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_20.png,0,28,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_21.png,0,28,1000,219,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_22.png,0,28,1000,219,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i70_split_23.png,0,28,478,219,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_1.png,62,22,1000,203,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_2.png,0,22,1000,203,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_3.png,0,22,1000,203,Epidalea calamita,1000,2000
@@ -1178,6 +1223,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_23.png,0,22,1000,203,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_24.png,0,22,1000,203,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_25.png,0,22,1000,203,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i71_split_26.png,0,22,400,203,Epidalea calamita,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_1.png,0,22,1000,208,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_2.png,0,22,1000,208,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_3.png,0,22,1000,208,Epidalea calamita,1000,2000
@@ -1191,6 +1237,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_11.png,0,22,1000,208,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_12.png,0,22,1000,208,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_13.png,0,22,1000,208,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i72_split_14.png,0,22,104,208,Epidalea calamita,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i73_split_1.png,0,13,1000,190,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i73_split_2.png,0,13,1000,190,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i73_split_3.png,0,13,1000,190,Epidalea calamita,1000,2000
@@ -1246,8 +1293,10 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i75_split_2.png,0,13,1000,247,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i75_split_3.png,0,13,1000,247,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i75_split_4.png,0,13,1000,247,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i75_split_5.png,0,13,305,247,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i76_split_1.png,0,21,1000,410,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i76_split_2.png,0,21,1000,410,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i76_split_3.png,0,21,184,410,Epidalea calamita,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_1.png,40,10,1000,234,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_2.png,0,10,1000,234,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_3.png,0,10,1000,234,Pelodytes punctatus,1000,2000
@@ -1262,6 +1311,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_12.png,0,10,1000,234,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_13.png,0,10,1000,234,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_14.png,0,10,1000,234,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_24IV2022_i77_split_15.png,0,10,200,234,Pelodytes punctatus,200,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i78_split_1.png,22,34,1000,213,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i78_split_2.png,0,34,1000,213,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i78_split_3.png,0,34,1000,213,Pelodytes punctatus,1000,2000
@@ -1288,8 +1338,10 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_4.png,0,13,342,28,Vent,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_5.png,196,54,1000,221,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_6.png,0,54,1000,221,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_7.png,0,54,173,221,Pelodytes punctatus,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_5.png,478,0,1000,57,Vent,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_6.png,0,0,1000,57,Vent,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i79_split_7.png,0,0,86,57,Vent,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i80_split_1.png,0,0,1000,39,Vent,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i80_split_2.png,0,0,1000,39,Vent,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i80_split_3.png,0,0,1000,39,Vent,1000,2000
@@ -1344,6 +1396,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i82_split_8.png,0,26,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i82_split_9.png,0,26,1000,208,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i82_split_10.png,0,26,1000,208,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i82_split_11.png,0,26,868,208,Hyla meridionalis,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i83_split_1.png,42,23,1000,236,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i83_split_2.png,0,23,1000,236,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i83_split_3.png,0,23,1000,236,Hyla meridionalis,1000,2000
@@ -1368,6 +1421,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i84_split_8.png,0,19,1000,229,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i84_split_9.png,0,19,1000,229,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i84_split_10.png,0,19,1000,229,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i84_split_11.png,0,19,342,229,Hyla meridionalis,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_1.png,36,20,1000,424,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_2.png,0,20,1000,424,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_3.png,0,20,1000,424,Hyla meridionalis,1000,2000
@@ -1379,6 +1433,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_9.png,0,20,1000,424,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_10.png,0,20,1000,424,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_11.png,0,20,1000,424,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_12.png,0,20,300,424,Hyla meridionalis,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_3.png,502,11,1000,22,Canis familiaris,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_4.png,0,11,1000,22,Canis familiaris,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i85_split_5.png,0,11,1000,22,Canis familiaris,1000,2000
@@ -1390,6 +1445,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_2.png,0,20,1000,167,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_3.png,0,20,1000,167,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_4.png,0,20,1000,167,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_5.png,0,20,221,167,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_1.png,392,0,830,28,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_2.png,178,0,546,25,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i86_split_3.png,260,0,370,20,Déplacement,1000,2000
@@ -1418,6 +1474,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_23.png,0,18,1000,166,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_24.png,0,18,1000,166,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_25.png,0,18,1000,166,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_26.png,0,18,500,166,Pelodytes punctatus,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_1.png,430,0,532,22,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_12.png,226,9,450,21,Voix,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i87_split_13.png,510,16,598,104,Klaxon,1000,2000
@@ -1467,6 +1524,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_43.png,0,12,1000,274,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_44.png,0,12,1000,274,Pelodytes punctatus,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_45.png,0,12,1000,274,Pelodytes punctatus,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_46.png,0,12,122,274,Pelodytes punctatus,400,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_1.png,30,0,484,35,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_11.png,146,21,180,30,Canis familiaris,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i88_split_12.png,390,22,474,29,Canis familiaris,1000,2000
@@ -1489,6 +1547,7 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i89_split_14.png,0,20,1000,189,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i89_split_15.png,0,20,1000,189,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i89_split_16.png,0,20,1000,189,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i89_split_17.png,0,20,700,189,Hyla meridionalis,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i90_split_1.png,50,23,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i90_split_2.png,0,23,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i90_split_3.png,0,23,1000,390,Hyla meridionalis,1000,2000
@@ -1578,8 +1637,12 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i91_split_14.png,0,20,1000,220,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i91_split_15.png,0,20,1000,220,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i91_split_16.png,0,20,1000,220,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i91_split_17.png,0,20,461,220,Hyla meridionalis,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i92_split_1.png,0,25,1000,133,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i92_split_2.png,0,25,385,133,Hyla meridionalis,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i92_split_1.png,662,131,1000,348,Pelophylax kl.,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i92_split_2.png,0,131,126,348,Pelophylax kl.,600,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i92_split_2.png,240,0,358,32,Déplacement,600,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i93_split_1.png,0,22,1000,254,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i93_split_2.png,0,22,1000,254,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i93_split_3.png,0,22,1000,254,Hyla meridionalis,1000,2000
@@ -1622,12 +1685,15 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_17.png,0,0,1000,17,Micro,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_18.png,0,0,1000,17,Micro,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_19.png,0,0,1000,17,Micro,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_20.png,0,0,165,17,Micro,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_14.png,300,16,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_15.png,0,16,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_16.png,0,16,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_17.png,0,16,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_18.png,0,16,1000,390,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_19.png,0,16,1000,390,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXX07FR_25IV2022_i94_split_20.png,0,16,432,390,Hyla meridionalis,500,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i06_split_1.png,0,18,91,476,Epidalea calamita,300,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i07_split_1.png,0,4,746,501,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i07_split_1.png,618,2,1000,5,Voiture,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i07_split_1.png,746,44,1000,146,Epidalea calamita,1000,2000
@@ -1643,32 +1709,53 @@
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_9.png,0,43,1000,140,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_10.png,0,43,1000,140,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_11.png,0,43,1000,140,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_12.png,0,43,700,140,Epidalea calamita,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_1.png,608,139,948,658,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_3.png,478,136,538,678,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_4.png,90,149,108,670,Branche,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i08_split_5.png,440,129,550,666,Déplacement,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i09_split_1.png,0,40,155,140,Epidalea calamita,400,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i09_split_1.png,19,5,38,12,Gargouillement,400,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i09_split_1.png,62,150,79,667,Déplacement,400,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i10_split_1.png,0,40,1000,319,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_1.png,0,15,374,496,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_1.png,374,27,1000,130,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_2.png,0,27,1000,130,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_3.png,0,27,391,130,Epidalea calamita,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_1.png,662,135,678,583,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_1.png,766,130,926,668,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_2.png,990,129,1000,646,Déplacement,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_3.png,0,129,64,646,Déplacement,700,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i11_split_3.png,391,25,664,640,Epidalea calamita,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_1.png,168,3,962,521,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_1.png,962,38,1000,110,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_2.png,0,38,1000,110,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_3.png,0,38,910,110,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_3.png,910,45,1000,125,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_4.png,0,45,328,125,Epidalea calamita,500,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i12_split_4.png,328,42,390,126,Epidalea calamita,500,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i13_split_1.png,0,2,107,668,Epidalea calamita,300,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i14_split_1.png,0,3,386,656,Epidalea calamita,600,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i15_split_1.png,0,4,279,573,Epidalea calamita,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i16_split_1.png,0,2,1000,554,Epidalea calamita,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i16_split_2.png,0,2,1000,554,Epidalea calamita,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i16_split_3.png,0,2,372,554,Epidalea calamita,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i17_split_1.png,0,35,1000,379,Hyla meridionalis,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i17_split_2.png,0,35,1000,379,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i17_split_3.png,0,35,387,379,Hyla meridionalis,500,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i17_split_1.png,130,135,382,687,Déplacement,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i18_split_1.png,0,35,1000,599,Hyla meridionalis,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i18_split_2.png,0,35,543,599,Hyla meridionalis,700,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i18_split_2.png,78,184,181,675,Déplacement,700,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i18_split_2.png,508,194,549,685,Déplacement,700,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_09VIII2018_i18_split_2.png,549,27,567,655,Déplacement,700,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i02_split_1.png,0,52,1000,63,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i02_split_2.png,0,52,1000,63,Alytes obstetricans,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i02_split_3.png,0,52,900,63,Alytes obstetricans,900,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i03_split_1.png,78,47,1000,62,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i03_split_2.png,0,47,1000,62,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i04_split_1.png,66,46,1000,64,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i04_split_2.png,0,46,1000,64,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i04_split_3.png,0,46,1000,64,Alytes obstetricans,1000,2000
 /home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i04_split_4.png,0,46,1000,64,Alytes obstetricans,1000,2000
+/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_XXXXXXXXXFR_14VII2017_i04_split_5.png,0,46,384,64,Alytes obstetricans,500,2000

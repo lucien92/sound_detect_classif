@@ -47,16 +47,20 @@ for wav_doc in file_list:
 
     sr = librosa.get_samplerate(wav_doc) 
     sr_to_max_sr_ratio = sr / max_sr
+
+    one_second = round(1 * sr/2)
+    five_seconds = one_second * 5
     
     # Get number of samples for 5 seconds
-    buffer = round(5 * sr/2)
+    buffer = five_seconds
+
 
     total_samples = len(waveform)
     saved_samples = 0
     counter = 1
 
-    while (saved_samples + buffer) < total_samples:
-
+    # It will only generate a spectrogram for the last audio segment if it lasts more than 1s
+    while (saved_samples + one_second) < total_samples:
         #check if the buffer is not exceeding total samples 
         if buffer > (total_samples - saved_samples):
             buffer = total_samples - saved_samples
@@ -67,11 +71,10 @@ for wav_doc in file_list:
         feature = spectrogram(block, 512, 256) #nfft et hop_length, nfft est la taille de la fenetre, hop_length est le pas entre deux fenetres
 
 
-
         #on veut transofrmer cet array en image
 
-        fig_width = 10
-        fig_height = 20*sr_to_max_sr_ratio
+        fig_width = round(10 * buffer / five_seconds)
+        fig_height = 20 * sr_to_max_sr_ratio
         
         plt.figure(figsize=(fig_width, fig_height))
         #on veut enlever les marges blanches
