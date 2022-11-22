@@ -33,6 +33,7 @@ with open(path_to_data, "r") as f:
                 if i < splits_in_current_recording:
                     new_line[0] = line[0][:-4] + "_split_" + str(i+1) + ".png"
                     new_line[1] = str(max(0, round(xmin - i*5, 2))) # xmin
+                    new_line[2] = str(max(0, float(new_line[2]))) # When choosing a minimum frequency of 0 Hz on Audacity the annotations generated display a frequency of -1.0 instead of 0.0
                     new_line[3] = str(min(5, round(xmax - i*5, 2))) # xmax
                     # print(line)
                     # print(split_min)
