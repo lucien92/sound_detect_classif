@@ -13,7 +13,6 @@ path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs
 #we write a csv replacing the path to the .wav file with a path to the spectrogram image
 
 splits_per_recording_df = pd.read_csv('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/n_splits_per_recording.csv', delimiter=',')
-splits_per_recording_df = splits_per_recording_df.rename(columns={'n_splits': 'recording', 'n_splits': 'n_splits'})
 
 with open(path_to_data, "r") as f:
     lines = f.readlines()
@@ -55,6 +54,10 @@ with open(base_path + "/classic_data_spectro.csv", "r") as f:
             try:
                 img = Image.open(line[0])
                 width, height = img.size
+                line[1] = str(float(line[1]) * width / 5)
+                line[3] = str(float(line[3]) * width / 5)
+                line[2] = str(float(line[2]) * height / 48000)
+                line[4] = str(float(line[4]) * height / 48000)
                 line.append(str(width))
                 line.append(str(height) + '\n')
                 line[5] = line[5].replace('\n', '')

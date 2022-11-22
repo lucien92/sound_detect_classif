@@ -38,7 +38,7 @@ file_list = list(set(file_list))
 file_list.sort()
 
 splits_per_recording = []
-splits_per_recording.append("recording,n_splits\n")
+splits_per_recording.append("recording,n_splits,sampling_rate\n")
 
 for wav_doc in file_list:
     
@@ -103,7 +103,7 @@ for wav_doc in file_list:
         counter += 1
         saved_samples += buffer
 
-    splits_per_recording.append(",".join([wav_doc, str(counter-1) + "\n"]))
+    splits_per_recording.append(",".join([wav_doc, str(counter-1), str(sr) + "\n"]))
 
 with open("/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/n_splits_per_recording.csv", "w") as f:
     for line in splits_per_recording:
