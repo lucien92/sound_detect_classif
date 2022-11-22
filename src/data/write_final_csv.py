@@ -12,7 +12,8 @@ path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs
 
 #we write a csv replacing the path to the .wav file with a path to the spectrogram image
 
-splits_per_recording_df = pd.read_csv('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/n_splits_per_recording.csv')
+splits_per_recording_df = pd.read_csv('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/n_splits_per_recording.csv', delimiter=',')
+splits_per_recording_df = splits_per_recording_df.rename(columns={'n_splits': 'recording', 'n_splits': 'n_splits'})
 
 with open(path_to_data, "r") as f:
     lines = f.readlines()
@@ -26,7 +27,7 @@ with open(path_to_data, "r") as f:
             split_max = math.trunc(xmax/5)
             new_line = line.copy()
 
-            splits_in_current_recording = splits_per_recording_df[splits_per_recording_df[0]==line[0]][1]
+            splits_in_current_recording = splits_per_recording_df[splits_per_recording_df['recording']==line[0]]['n_splits'].item()
 
             for i in range(split_min, split_max+1):
                 if i < splits_in_current_recording:
