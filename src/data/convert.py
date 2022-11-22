@@ -3,8 +3,14 @@ import csv
 import glob
 import itertools
 
-base_path = '/media/david/One Touch/PSI-BIOM/Travail/Enregistrements opportunistes/'
+#base_path = '/media/david/One Touch/PSI-BIOM/Travail/Enregistrements opportunistes/'
+base_path = '/media/david/One Touch/Sons/'
 annotations = []
+
+try:
+    os.mkdir('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/')
+except:
+    pass
 
 for file in glob.iglob(base_path + '**/*.txt', recursive=True):
 #for file in os.listdir(base_path):
@@ -40,17 +46,11 @@ for file in glob.iglob(base_path + '**/*.txt', recursive=True):
                 
                 if ' 0 ' in new_lines[i]:
                     index_to_delete.append(i)
+
                     
             for i in sorted(index_to_delete, reverse=True):
                 del new_lines[i]
-            
-            
-        try:
-            os.mkdir('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/')
-        except:
-            pass
-            
-            
+               
             # with open('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/temp_classic_data.csv', 'a') as f:
             #     writer = csv.writer(f)
             #     for i in range(len(new_lines)):

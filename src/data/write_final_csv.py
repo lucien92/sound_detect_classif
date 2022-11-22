@@ -1,5 +1,7 @@
 import csv
 import PIL
+import math
+import pandas as pd
 from PIL import Image
 
 #paths
@@ -10,13 +12,34 @@ path_to_data = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs
 
 #we write a csv replacing the path to the .wav file with a path to the spectrogram image
 
+splits_per_recording_df = pd.read_csv('/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/n_splits_per_recording.csv')
+
 with open(path_to_data, "r") as f:
     lines = f.readlines()
     with open(base_path + "/classic_data_spectro.csv", "w") as f2:
         for line in lines:
             line = line.split(",")
-            line[0] = line[0][:-4] + ".png"
-            f2.write(",".join(line))
+
+            xmin = float(line[1])
+            xmax = float(line[3])
+            split_min = math.trunc(xmin/5)
+            split_max = math.trunc(xmax/5)
+            new_line = line.copy()
+
+            splits_in_current_recording = splits_per_recording_df[splits_per_recording_df[0]==line[0]][1]
+
+            for i in range(split_min, split_max+1):
+                if i < splits_in_current_recording:
+                    new_line[0] = line[0][:-4] + "_split_" + str(i+1) + ".png"
+                    new_line[1] = str(max(0, round(xmin - i*5, 2))) # xmin
+                    new_line[3] = str(min(5, round(xmax - i*5, 2))) # xmax
+                    # print(line)
+                    # print(split_min)
+                    # print(split_max)
+                    # print(i)
+                    # print(new_line)
+
+                    f2.write(",".join(new_line))
             
 #on veut rajouter deux colonnes qui indiquent la taille de l'image renseignée dans le csv à line[0]
 path_to_images = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms"
@@ -36,7 +59,7 @@ with open(base_path + "/classic_data_spectro.csv", "r") as f:
                 f2.write(",".join(line))
                 
             except:
-                print("error", line[0])
+                #print("error", line[0])
                 pass
             # img = PIL.Image.open(path_to_images + "/" + line[0])
             # width, height = img.size
