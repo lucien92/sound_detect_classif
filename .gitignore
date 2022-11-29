@@ -1,0 +1,6 @@
+data/raw/*.aup3
+data/raw/*.txt
+data/raw/*.wav
+data/raw/*.bak
+
+venv/
