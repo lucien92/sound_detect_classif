@@ -4,3 +4,5 @@ data/raw/*.wav
 data/raw/*.bak
 
 venv/
+
+.gitignore
