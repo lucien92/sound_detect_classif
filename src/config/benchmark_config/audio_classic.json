@@ -17,8 +17,29 @@
             34.41259
         ],
         "labels": [
-            "Anura",
-            "Anthropophonie"
+            "Hyla meridionalis",
+            "Eau",
+            "Voix",
+            "Pas",
+            "Micro",
+            "Vent",
+            "Pelophylax ridibundus",
+            "Pelophylax kl.",
+            "Arroseur",
+            "Pelodytes punctatus",
+            "Déplacement",
+            "Pelophylax perezi",
+            "Rire",
+            "Cris",
+            "Canis familiaris",
+            "Epidalea calamita",
+            "Bufo spinosus",
+            "Alytes obstetricans",
+            "Gargouillement",
+            "Epidalea calamita call",
+            "Goutte",
+            "Bug informatique",
+            "Mouche"
         ],
         "unwanted_labels": [
             "noBird",
