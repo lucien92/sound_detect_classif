@@ -24,27 +24,27 @@ def _main_(args):
     with open(args.conf) as config_buffer:
         config = json.load(config_buffer)
 
-    path_to_images = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_blantec31FR_01VI2022_i158_split_1.png"
+    
 
     #coordonnées bounding boxes
-
+    image_path = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms/Anura_adlpbra11FR_07IV2022_0215_split_12.png"
     with open("/home/david/Escriptori/Feines/sound_detect_classif/src/data/CSVs/classic_data_spectro.csv", "r") as f:
         reader = csv.reader(f)
         for lines in reader:
-            if lines[0] == path_to_images:
-                print(lines)
-                x1 = float(lines[1])
-                y1 = float(lines[2])
-                x2 = float(lines[3])
-                y2 = float(lines[4])
-                
-                frame = cv2.imread(path_to_images)
-                
-                # Draw bounding boxes
-                frame = draw_boxes(frame, [BoundBox(x1, y1, x2, y2, 1, config['model']['labels'])], config['model']['labels'])
-                cv2.imshow('frame', frame)
-                cv2.waitKey(0)
-                cv2.destroyAllWindows()
+          #
+          if lines[0] == image_path:
+              x1 = float(lines[1])
+              y1 = float(lines[2])
+              x2 = float(lines[3])
+              y2 = float(lines[4])
+              
+              frame = cv2.imread(image_path)
+              
+              # Draw bounding boxes
+              frame = draw_boxes(frame, [BoundBox(x1, y1, x2, y2, 1, [1])], config['model']['labels'])
+              cv2.imwrite(image_path[:-4] + 'dessin' + image_path[-4:], frame)
+              cv2.destroyAllWindows()
+              exit()
                
 
 if __name__ == '__main__':

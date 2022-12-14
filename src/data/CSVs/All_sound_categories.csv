@@ -1,4 +1,5 @@
 Taxonomic_group,Label,French_name
+Aves,Oiseau sp., Oiseau sp
 Aves,Anser caerulescens,Oie des neiges
 Aves,Anser anser,Oie cendrée
 Aves,Anser albifrons,Oie rieuse
@@ -639,6 +640,8 @@ Anura,Pelophylax kl. grafi,Grenouille de De Graf
 Anura,Pelophylax lessonae,Grenouille de Lessona
 Anura,Pelophylax perezi,Grenouille de Perez
 Anura,Pelophylax ridibundus,Grenouille rieuse
+Anura,Anoure sp.,
+Orthoptera,Orthoptera sp.,Orthoptera sp.
 Orthoptera,Acheta domesticus,Grillon domestique
 Orthoptera,Acrida ungarica,Truxale méditerranéenne
 Orthoptera,Acrometopa italica,Phanéroptère corse
@@ -749,6 +752,7 @@ Orthoptera,Myrmecophilus myrmecophilus,Fourmigril méridional
 Orthoptera,Myrmeleotettix maculatus,Gomphocère tacheté
 Orthoptera,Nemobius sylvestris,Grillon des bois
 Orthoptera,Oecanthus pellucens,Grillon d'Italie
+Orthoptera,Oecanthus dulcisonans,
 Orthoptera,Oedaleus decorus,Oedipode soufrée
 Orthoptera,Oedipoda caerulescens,Oedipode turquoise
 Orthoptera,Oedipoda charpentieri,Oedipode occitane
@@ -793,6 +797,7 @@ Orthoptera,Pyrgomorpha conica,Pyrgomorphe à tête conique
 Orthoptera,Ramburiella hispanica,Criquet des Ibères
 Orthoptera,Rhacocleis germanica,Decticelle orientale
 Orthoptera,Rhacocleis poneli,Sauterelle opportuniste
+Orthoptera,Rhacocleis annulata,
 Orthoptera,Ruspolia nitidula,Conocéphale gracieux
 Orthoptera,Saga pedo,Magicienne dentelée
 Orthoptera,Schistocerca gregaria,Criquet pèlerin
@@ -5751,11 +5756,11 @@ Aves,Plongeon,
 Aves,Envol,
 Geophonie,Branche,
 Geophonie,Cascade,
+Geophonie,Orage,
 Mammalia,Déplacement animal,
 Geophonie,Feuilles,
 Geophonie,Goutte,
 Geophonie,Grêle,
-Geophonie,Orage,
 Geophonie,Pluie,
 Geophonie,Eau,
 Geophonie,Ruisseau,
@@ -5807,3 +5812,4 @@ Anthropophonie,Engin_c,
 Anthropophonie,Travaux,
 Anthropophonie,Moteur,
 Anthropophonie,Choc,
+Anthropophonie,Camion,

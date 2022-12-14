@@ -8,6 +8,7 @@ from PIL import Image
 
 def spectrogram(y, n_fft, hop_length):
 	return 20 * np.log10(np.abs(librosa.stft(y=y, n_fft=n_fft, hop_length=hop_length)))
+    # return librosa.hz_to_mel(np.abs(librosa.stft(y=y, n_fft=n_fft, hop_length=hop_length)))
 
 def melgram(y, n_fft, hop_length, n_mels):
 	return 20 * np.log10(
@@ -48,19 +49,26 @@ for wav_doc in file_list:
     sr = librosa.get_samplerate(wav_doc) 
     sr_to_max_sr_ratio = sr / max_sr
 
-    one_second = round(1 * sr/2)
+    duration = librosa.get_duration(waveform)
+
+    # one_second = round(1 * sr/2)
+    one_second = round(len(waveform) / duration)
     five_seconds = one_second * 5
     
     # Get number of samples for 5 seconds
     buffer = five_seconds
 
-
     total_samples = len(waveform)
     saved_samples = 0
     counter = 1
 
+    # print("total samples: ", total_samples)
+    # print("five seconds: ", five_seconds)
+    # print("sample_rate: ", sr)
+    # print("total duration (s): ", total_samples / (1 * sr/2))
+
     # It will only generate a spectrogram for the last audio segment if it lasts more than 1s
-    while (saved_samples + one_second) < total_samples:
+    while (saved_samples + one_second) <= total_samples:
         #check if the buffer is not exceeding total samples 
         if buffer > (total_samples - saved_samples):
             buffer = total_samples - saved_samples
@@ -68,9 +76,12 @@ for wav_doc in file_list:
         block = waveform[saved_samples : (saved_samples + buffer)]
         suffix = "_split_" + str(counter)
 
-        feature = spectrogram(block, 512, 256) #nfft et hop_length, nfft est la taille de la fenetre, hop_length est le pas entre deux fenetres
-
-
+        # print("block")
+        # print(block[:1])
+        feature = melgram(block, 512, 256, 128) #nfft et hop_length, nfft est la taille de la fenetre, hop_length est le pas entre deux fenetres
+        # print("feature")
+        # print(feature[:1])
+        
         #on veut transofrmer cet array en image
 
         fig_width = round(10 * buffer / five_seconds)

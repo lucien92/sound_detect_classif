@@ -18,10 +18,7 @@
         ],
         "labels": [
             "Anura",
-            "Geophonie",
-            "Anthropophonie",
-            "Mammalia",
-            "Diptera"
+            "Anthropophonie"
         ],
         "unwanted_labels": [
             "noBird",

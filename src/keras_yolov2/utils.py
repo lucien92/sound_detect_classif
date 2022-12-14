@@ -115,6 +115,12 @@ def draw_boxes(image, boxes, labels):
         ymax = int(box.ymax * image_h)
 
         line_width_factor = int(min(image_h, image_w) * 0.005)
+        print(xmin)
+        print(ymin)
+        print(xmax)
+        print(ymax)
+        print(colors[box.get_label()])
+        print(line_width_factor * 2)
         cv2.rectangle(image, (xmin, ymin), (xmax, ymax), colors[box.get_label()], line_width_factor * 2)
         cv2.imshow("nom",image)
         # cv2.putText(image, "{} {:.3f}".format(labels[box.get_label()], box.get_score()),

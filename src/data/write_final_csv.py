@@ -2,6 +2,8 @@ import csv
 import PIL
 import math
 import pandas as pd
+import numpy as np
+import librosa
 from PIL import Image
 
 #paths
@@ -44,24 +46,58 @@ with open(path_to_data, "r") as f:
             
 #on veut rajouter deux colonnes qui indiquent la taille de l'image renseignée dans le csv à line[0]
 path_to_images = "/home/david/Escriptori/Feines/sound_detect_classif/src/data/Spectrograms"
+n_mels = 128
 
 with open(base_path + "/classic_data_spectro.csv", "r") as f:
     lines = f.readlines()
     with open(base_path + "/classic_data_spectro.csv", "w") as f2:
         for line in lines:
             line = line.split(",")
+
+            wav_doc = line[0].rsplit('_split_', 1)[0] + ".wav"
+            sr = librosa.get_samplerate(wav_doc)
+            freqs = librosa.core.mel_frequencies(fmin=0.0, fmax=sr / 4, n_mels=n_mels)
+
             line[0] = path_to_images + "/" + line[0].rsplit('/', 1)[1]
             try:
                 img = Image.open(line[0])
                 width, height = img.size
-                line[1] = str(round(float(line[1]) * width / 5))
-                line[3] = str(round(float(line[3]) * width / 5))
-                line[2] = str(round(float(line[2]) * height / 48000))
-                line[4] = str(round(float(line[4]) * height / 48000))
+                line[1] = str(round(float(line[1]) / 5, 4))
+                line[3] = str(round(float(line[3]) / 5, 4))
+                # line[2] = str(round(float(line[2]) / 48000, 4))
+                # line[4] = str(round(float(line[4]) / 48000, 4))
+
+
+                # Transforming frequencies from Hz to the mel scalefind = 4400 
+                line[2] = str(1 - round((np.argmin(abs(freqs - float(line[2]))) / n_mels) * 0.5, 4))
+                line[4] = str(1 - round((np.argmin(abs(freqs - float(line[4]))) / n_mels) * 0.5, 4))
                 line.append(str(width))
                 line.append(str(height) + '\n')
+
+                #on ne veut pas garder les chiffres allant de 1 à 10 dans le nom de l'image
                 line[5] = line[5].replace('\n', '')
-                f2.write(",".join(line))
+                line[5] = line[5].replace(' 0', '')
+                line[5] = line[5].replace(' 1', '')
+                line[5] = line[5].replace(' 2', '')
+                line[5] = line[5].replace(' 3', '')
+                line[5] = line[5].replace(' 4', '')
+                line[5] = line[5].replace(' 5', '')
+                line[5] = line[5].replace(' 6', '')
+                line[5] = line[5].replace(' 7', '')
+                line[5] = line[5].replace(' 8', '')
+                line[5] = line[5].replace('Rana temporaria ', 'Rana temporaria')
+                line[5] = line[5].replace('Hyla meridionalis ', 'Hyla meridionalis')
+                line[5] = line[5].replace('Orage ', 'Orage')
+                line[5] = line[5].replace('Deplacement', 'Déplacement')
+                line[5] = line[5].replace('Orthoptere sp.', 'Orthoptera sp.')
+                line[5] = line[5].replace('Tur mer', 'Turdus merula')
+                line[5] = line[5].replace('Yersinella raymondi', 'Yersinella raymondii')
+                line[5] = line[5].replace('Yersinella raymondiii', 'Yersinella raymondii')
+                line[5] = line[5].replace('Luscinia megarhynchyos', 'Luscinia megarhynchos')
+                line[5] = line[5].replace('Pseudochortippus parallelus', 'Pseudochorthippus parallelus')
+
+                if not ('Non identifié' in line[5]):
+                    f2.write(",".join(line))
                 
             except:
                 #print("error", line[0])
